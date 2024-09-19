@@ -1,0 +1,19 @@
+.div-add img {
+    width: 50px;
+}
+
+.div-add p {
+    font-size: 17px;
+}
+
+.div-add :hover{
+    cursor: pointer;
+}
+
+h2 {
+    color: #fff;
+}
+
+.modal {
+    color: #000;
+}

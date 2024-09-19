@@ -1,0 +1,72 @@
+body{
+    background-color: #073f59;
+    color: #fff;
+}
+.alerta-validacion{
+    color: #dc3545;
+    padding: 5px 0;
+    margin: 0;
+}
+a{
+    border: none;
+    list-style: none;
+}
+
+.btn-color {
+    background-color: #073f59;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+    color: #073f59;
+    font-size: 18px;
+}
+
+.navbar .navbar-brand{
+    font-weight: bold;
+    color: #073f59;
+}
+
+.ocultar {
+    display: none;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.Tabla {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.Tabla thead {
+    background-color: #000;
+}
+
+.Tabla thead th {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.Tabla tbody {
+    background-color: white;
+}
+
+.Tabla tbody td {
+    color: #000;
+    padding: 1rem;
+    text-align: center; 
+    border-bottom: 1px solid #000;
+    padding: 8px 10px;
+}
+
+.Tabla img{
+    width: 35px;
+}
+/*Color MC #073f59*/
