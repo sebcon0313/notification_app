@@ -25,4 +25,4 @@ Route::get('/editarDocumento', [DocumentoController::class, 'editDocumento'])->n
 Route::post('/editarDocumento', [DocumentoController::class, 'updateDocumento'])->name('home.update')->middleware('auth');
 
 Route::get('/destroyDocumento', [DocumentoController::class, 'destroyDocumento'])->name('home.destroy')->middleware('auth');
-Route::post('/destroyDocumento', [DocumentoController::class, 'destroyDocumento'])->name('home.destroy')->middleware('auth');
+Route::post('/destroyDocumento', [DocumentoController::class, 'destroyDocumento'])->name('home.destroy.post')->middleware('auth');
