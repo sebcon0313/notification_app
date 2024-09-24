@@ -15,8 +15,8 @@ Route::get('/login', [SessionsController::class, 'create'])->name('login');
 Route::post('/login', [SessionsController::class, 'store'])->name('login.store');
 Route::get('/logout', [SessionsController::class, 'destroy'])->name('login.destroy');
 
-Route::get('/register', [RegisterController::class, 'create'])->name('register.index');
-Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
+Route::get('/register', [RegisterController::class, 'create'])->name('register.index')->middleware('auth');
+Route::post('/register', [RegisterController::class, 'store'])->name('register.store')->middleware('auth');
 
 Route::get('/home', [DocumentoController::class, 'viewHome'])->name('home.index')->middleware('auth');
 Route::Post('/home', [DocumentoController::class, 'storeDocumento'])->name('home.store')->middleware('auth');
