@@ -84,7 +84,7 @@ class DocumentoController extends Controller
             $nombreArchivoUnico = $nombreArchivo . '_' . time() . '.' . $extension;
 
             // Guardar el archivo con el nuevo nombre en el sistema de archivos
-            $rutaArchivo = $request->file('documento')->storeAs('documentos', $nombreArchivoUnico, 'public');
+            $rutaArchivo = $request->file('documento')->storeAs('', $nombreArchivoUnico, 'public');
         }
 
         $documento = Documento::create([
@@ -201,7 +201,7 @@ class DocumentoController extends Controller
                 $nombreArchivoUnico = $nombreArchivo . '_' . time() . '.' . $extension;
 
                 // Guardar el archivo con el nuevo nombre en el sistema de archivos
-                $rutaArchivo = $request->file('documento')->storeAs('documentos', $nombreArchivoUnico, 'public');
+                $rutaArchivo = $request->file('documento')->storeAs('', $nombreArchivoUnico, 'public');
             }
         }
 

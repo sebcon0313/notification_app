@@ -10,6 +10,7 @@ body{
 a{
     border: none;
     list-style: none;
+    color: none;
 }
 
 .btn-color {

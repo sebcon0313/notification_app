@@ -26,12 +26,12 @@
                                 <a class="nav-link" href="{{ route('login.destroy') }}">Cerrar Sessión</a>
                             </li>
                         @else
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">Log in</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('register.index') }}">Register</a>
-                            </li>
+                            </li> --}}
                         @endif
                     </ul>
                 </div>
